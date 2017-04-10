@@ -1,0 +1,229 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700';
+
+@font-face {
+    font-family: TwoCent;
+    src: url(../fonts/two-cent.ttf);
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    GLOBAL STYLES
+   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+.container {
+    overflow: hidden;
+}
+
+.mdl-layout__title, .mdl-layout-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+}
+
+.mdl-layout__header, .mdl-layout__tab-bar, .mdl-layout__tab-bar-button {
+    background-color: #3e2f44;
+}
+
+.slick-slide {
+    margin: 1em;
+    border-radius: 10px;
+}
+
+.profile {
+  margin: 20px 0;
+}
+#overlay1 {
+margin: auto;
+position: absolute;
+top: 70px;
+ left: 50px;
+bottom: 50px;
+ right: 50px;
+color: #FFF;
+z-index:5;
+border-radius:4px;}
+
+#content{
+width:100%;
+height:350px;
+ position:relative;
+ }
+.btn-success{
+margin-left:240px;
+margin-top: 15px;
+}
+.btn-primary{
+margin-left:700px;
+margin-top:-78px;
+  }
+.btn-floating{
+margin-left:1100px;
+margin-top:-40px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    margin-right:0px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: blue;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: white;
+text-decoration:none;
+background:transparent;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 36px;
+    margin-right: 200px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px; text-decoration:none;}
+}
+.row-profile{
+background-color:#111;
+}
+
+.navbar{
+height:100px;
+background-color:#3e2f44;
+}
+
+.tiffin-center{
+width:1230px;
+height:170px;
+margin-top:20px;
+margin-left:50px;
+border:1px solid black;
+postion:absolute;
+background-color:white;
+}
+  .panel{
+  width:50%;
+  height:120px;
+  }
+
+  
+
+
+/* Profile sidebar */
+.profile-sidebar {
+  padding: 20px 0 10px 0;
+  background-color: #111;
+}
+.img{
+margin-top:10px;
+margin-left:60px;
+}
+
+.profile-userpic {
+  float: none;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+
+.profile-usertitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-usertitle-name {
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+  text-transform: uppercase;
+  color: #5b9bd1;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.profile-userbuttons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.profile-userbuttons .btn {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 15px;
+  margin-right: 5px;
+}
+
+.profile-userbuttons .btn:last-child {
+  margin-right: 0px;
+}
+    
+.profile-usermenu {
+  margin-top: 30px;
+}
+
+.profile-usermenu ul li {
+  border-bottom: 1px solid #111;
+}
+
+.profile-usermenu ul li:last-child {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li a {
+  color: #93a3b5;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.profile-usermenu ul li a i {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.profile-usermenu ul li a:hover {
+  background-color: #fafcfd;
+  color: #5b9bd1;
+}
+
+.profile-usermenu ul li.active {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li.active a {
+  color: #5b9bd1;
+  background-color: #f6f9fb;
+  border-left: 2px solid #5b9bd1;
+  margin-left: -2px;
+}
+
+/* Profile Content */
+.profile-content {
+  padding: 20px;
+  background: #111;
+  min-height: 460px;
+}
